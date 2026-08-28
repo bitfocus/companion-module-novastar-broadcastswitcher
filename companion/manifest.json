@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"type": "connection",
+	"id": "novastar-broadcastswitcher",
+	"name": "NovaStar Broadcast Switcher",
+	"shortname": "novastar-broadcastswitcher",
+	"description": "Companion module for NovaStar DB4K Broadcast Switcher",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-novastar-broadcastswitcher",
+	"bugs": "https://github.com/bitfocus/companion-module-novastar-broadcastswitcher/issues",
+	"maintainers": [
+		{
+			"name": "NovaStar",
+			"email": "service@novastar.tech"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"manufacturer": "NovaStar",
+	"products": ["DB4K"],
+	"keywords": ["NovaStar", "Broadcast", "Switcher", "DB4K"]
+}
